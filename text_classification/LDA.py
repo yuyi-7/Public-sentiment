@@ -5,7 +5,7 @@ import pandas as pd
 import jieba
 from gensim import corpora,models
 
-stoppath = r'C:\Users\Administrator\Desktop\chapter15\demo\data\stoplist.txt'
+stoppath = r'stoplist.txt'
 
 def createfilter():
     filterlist = []
